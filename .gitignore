@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ML model cache & test data
+backend/models_cache/
+backend/test_images/
+backend/test_images_large/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Agent workspace
+.agents/
+
+# Generated output
+test_photos/筛选结果_*/
+test_photos/*_output/
